@@ -23,6 +23,12 @@
             return y;
         }
 
+        //public static float Abs(in float f)
+        //{
+        //    const float INV = 0b_10000000_00000000_00000000_00000000;
+        //    return f & INV;
+        //}
+
         private static void Test(in float f)
         {
             int S = 0b_0000_0000;

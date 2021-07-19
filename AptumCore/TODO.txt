@@ -1,0 +1,42 @@
+﻿
+
+
+Collections:
+* LookupCache
+* Pool
+* 
+
+GUIRenderer:
+* Use SPIR-V Emmbeded Assets
+Render Objects:
+* Rotate Any Rectangle
+* Simple Lines
+* Anti-Aliasing
+* Shapes (Signed Distance Functions: Circle)
+* Textures
+* Text
+
+Shapes:
+* Circle
+* Ring
+* Elipse
+* Ring Elipse
+* Smooth
+* Path
+Fills:
+* Gradient System
+
+=============================
+TODO:
+* Color Types
+* Vector3
+
+DOING:
+* Mouse Events
+* Emmbeded Shader Management
+* Emmbeded Shaders
+* Rotating Quads
+* 
+
+DONE:
+
