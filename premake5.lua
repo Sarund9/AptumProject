@@ -25,7 +25,9 @@ project "Sandbox"
 	kind "ConsoleApp"
 	language "C#"
 	-- clr "Unsafe"
-	dotnetframework "netcoreapp2.1"
+	dotnetframework "netcoreapp3.1"
+	--dotnetframework "net5.0"
+	--csversion "9.0"
 	
 	targetdir ("_bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("_bin - obj/" .. outputdir .. "/%{prj.name}")

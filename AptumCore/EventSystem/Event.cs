@@ -49,5 +49,12 @@ namespace AptumEngine.Core
         {
             return CategoryFlags.HasFlag(flags);
         }
+
+        public override string ToString()
+        {
+            return GetType().Name + EventInfo();
+        }
+
+        protected virtual string EventInfo() => "";
     }
 }

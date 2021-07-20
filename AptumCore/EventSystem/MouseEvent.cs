@@ -17,6 +17,7 @@ namespace AptumEngine.Core
         public Vector2 MousePosition { get; }
     }
 
+    #region MOUSE_BUTTON
     // Mouse Button
     public abstract class MouseButtonEvent : MouseEvent
     {
@@ -44,6 +45,7 @@ namespace AptumEngine.Core
         {
         }
     }
+    #endregion
 
     #region MOUSE_WINDOW
     // Mouse Window

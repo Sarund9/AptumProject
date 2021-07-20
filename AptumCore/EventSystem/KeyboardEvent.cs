@@ -13,6 +13,11 @@ namespace AptumEngine.Core
 
         public Key Key { get; }
         public ModifierKeys Modifiers { get; }
+
+        protected override string EventInfo()
+        {
+            return $"[{Key}]--[{Modifiers}]";
+        }
     }
 
     public class KeyDownEvent : KeyboardEvent

@@ -112,6 +112,7 @@ namespace AptumEngine.Core
             m_GraphicsDevice = null;
         }
 
+        //*
         public void SetupEvents(Application appInstance)
         {
             m_Window.KeyDown += (KeyEvent key) =>
@@ -208,13 +209,13 @@ namespace AptumEngine.Core
             };
             m_Window.Hidden += () => 
             {
-                appInstance.HandleEvent(new WindowHidden(this));
+                appInstance.HandleEvent(new WindowHiddenEvent(this));
             };
             m_Window.Exposed += () => 
             {
                 appInstance.HandleEvent(new WindowExposed(this));
             };
-        }
+        }//*/
 
     }
 }
